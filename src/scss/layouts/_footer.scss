@@ -1,0 +1,37 @@
+.nav-footer {
+  a {
+    color: white;
+  }
+}
+
+.footer-col--1 {
+  a::before {
+    color: white;
+  }
+}
+
+.footer-col--2 {
+  a {
+    color: white;
+  }
+}
+.page-footer {  a {
+    color: $white;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.page-footer .menu-social-menu-container {
+  li a {
+    color: $white;
+    &::before {
+      font-size: 2.25rem;
+    }
+  }
+}
+
+.menu-menu-footer-container li {
+  margin-right: 1rem;
+}
